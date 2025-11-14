@@ -13,3 +13,6 @@ test(`displays "NOT logged in" text`, () => {
 });
 
 // alla andra filer togs bort endast kod kvar som efterfrågades av uppgiften.
+
+const g = 10;
+console.log(g);
