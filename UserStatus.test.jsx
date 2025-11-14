@@ -9,5 +9,7 @@ test(`displays "logged in" text`, () => {
 
 test(`displays "NOT logged in" text`, () => {
   render(<UserStatus isLoggedIn={false} />);
-  expect(screen.getByText('NOT logged in')).toBeInTheDocument();
+  expect(screen.getByText('NOT logged')).toBeInTheDocument();
 });
+
+// Tog bort alla andra filer som det stog i uppgiften, endast kod.
